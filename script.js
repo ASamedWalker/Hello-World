@@ -479,6 +479,26 @@
 //   }
 // }
 
+// var table;
+// function doCreateTable() {
+//   table = document.createElement("table");
+//   table.className = "tableClass";
+//   document.getElementById("div").appendChild(table);
+// }
+
+// function doCreateRow() {
+//   var rowNum = parseInt(document.getElementById("row").value);
+//   var colNum = parseInt(document.getElementById("col").value);
+//   for (var i=1;i<=rowNum;i++) {
+//     var row=table.insertRow(-1);
+//     for (var j=1;j<=colNum;j++) {
+//       var cell=row.insertCell(-1);
+//       cell.innerHTML="row:" + i +", col:"+j;
+//     }
+//   }
+// }
+
+
 var table;
 function doCreateTable() {
   table = document.createElement("table");
@@ -489,7 +509,49 @@ function doCreateTable() {
 function doCreateRow() {
   var rowNum = parseInt(document.getElementById("row").value);
   var colNum = parseInt(document.getElementById("col").value);
-  for (var i=1; i <= rowNum)
+  for(var i=1; i<=rowNum;i++) {
+    var row = table.insertRow(-1);
+    for(var j=1; j <= colNum; j++) {
+      var cell=row.insertCell(-1);
+      cell.innerHTML="Rows:"+i+",Columns:"+j;
+    }
+  }
+}
+
+
+function doDeleteRow() {
+  var rowNum = parseInt(document.getElementById("row").value);
+  table.deleteRow(rowNum);
+}
+
+function doDeleteCol() {
+  var colNum = parseInt(document.getElementById("col").value);
+  var rows = table.rows;
+  for(var i = 0; i < rows.length; i++) {
+    rows[i].deleteCell(colNum);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
