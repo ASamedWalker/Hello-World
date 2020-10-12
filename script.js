@@ -499,38 +499,64 @@
 // }
 
 
-var table;
-function doCreateTable() {
-  table = document.createElement("table");
-  table.className = "tableClass";
-  document.getElementById("div").appendChild(table);
+// var table;
+// function doCreateTable() {
+//   table = document.createElement("table");
+//   table.className = "tableClass";
+//   document.getElementById("div").appendChild(table);
+// }
+
+// function doCreateRow() {
+//   var rowNum = parseInt(document.getElementById("row").value);
+//   var colNum = parseInt(document.getElementById("col").value);
+//   for(var i=1; i<=rowNum;i++) {
+//     var row = table.insertRow(-1);
+//     for(var j=1; j <= colNum; j++) {
+//       var cell=row.insertCell(-1);
+//       cell.innerHTML="Rows:"+i+",Columns:"+j;
+//     }
+//   }
+// }
+
+
+// function doDeleteRow() {
+//   var rowNum = parseInt(document.getElementById("row").value);
+//   table.deleteRow(rowNum);
+// }
+
+// function doDeleteCol() {
+//   var colNum = parseInt(document.getElementById("col").value);
+//   var rows = table.rows;
+//   for(var i = 0; i < rows.length; i++) {
+//     rows[i].deleteCell(colNum);
+//   }
+// }
+
+
+function doSetInterval() {
+  var dateDiv = document.getElementById("dateDiv");
+  var d = new Date();
+  var dateString = d.getHours() +":"+ d.getMinutes()+":"+d.getSeconds()
+
+  dateDiv.innerHTML = dateString;
 }
 
-function doCreateRow() {
-  var rowNum = parseInt(document.getElementById("row").value);
-  var colNum = parseInt(document.getElementById("col").value);
-  for(var i=1; i<=rowNum;i++) {
-    var row = table.insertRow(-1);
-    for(var j=1; j <= colNum; j++) {
-      var cell=row.insertCell(-1);
-      cell.innerHTML="Rows:"+i+",Columns:"+j;
-    }
-  }
-}
+setInterval("doSetInterval()", 1000);
 
 
-function doDeleteRow() {
-  var rowNum = parseInt(document.getElementById("row").value);
-  table.deleteRow(rowNum);
-}
 
-function doDeleteCol() {
-  var colNum = parseInt(document.getElementById("col").value);
-  var rows = table.rows;
-  for(var i = 0; i < rows.length; i++) {
-    rows[i].deleteCell(colNum);
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
