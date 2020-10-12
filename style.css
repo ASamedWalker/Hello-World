@@ -1,0 +1,268 @@
+/* input {
+  width: 70px;
+  height: 70px;
+} */
+
+/* #fontSize {
+  font-size: 24px;
+}
+#fontColor {
+  color: #ff0000;
+}
+
+#lineHeight {
+  line-height: 30px;
+}
+
+#textTransform {
+  text-transform: none;
+}
+
+#textDecoration {
+  text-decoration: line-through;
+}
+
+#fontFamily {
+  font-family: sans-serif;
+} */
+
+/* #backgroundColor {
+  background-color: #ff0000;
+  width: 200px;
+  height: 50px;
+}
+
+#backgroundImage {
+  background-image: url("https://images.unsplash.com/photo-1601164768085-c3a5665db36f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-repeat: no-repeat;
+  background-position: right;
+} */
+
+/* #borderStyle {
+  width: 200px;
+  height: 100px;
+  border-color: orangered;
+  border-width: 10px;
+  border-style: ridge;      
+} */
+/* 
+#letterSpacing {
+  letter-spacing: 20px;
+
+}
+
+#wordSpacing {
+  word-spacing: 50px;
+} */
+
+/* #textAlignCenter {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #ff0000;
+  border-width: 10px;
+  border-style: ridge;
+}
+
+#textAlignRight {
+  text-align: right;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #ff0000;
+  border-style: ridge;
+  border-width: 10px;
+} */
+
+/* #marginDiv {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #ff0000;
+  margin-top:
+} */
+
+/* #paddingDiv {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #ff0000;
+  padding-top: 30px;
+} */
+/* 
+#list {
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+#listImage {
+  list-style-type: circle;
+  list-style-position: outside;
+  list-style-image: url(images/android-logo-24.png);
+} */
+
+/* 
+#floatStyle li{
+  float: left;
+  padding-left: 50px;
+  list-style: none;
+} */
+
+/* #redBox {
+  width: 200px;
+  height: 50px;
+  background-color: #ff0000;
+  margin-top: 1px;
+}
+
+#greenBox {
+  width: 200px;
+  height: 50px;
+  background-color: #00ff00;
+  margin-top: 1px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+#blueBox {
+  width: 200px;
+  height: 50px;
+  background-color: #0000ff;
+  margin-top: 1px;
+} */
+
+/* #redBox {
+  width: 200px;
+  height: 50px;
+  background-color: #ff0000;
+  margin-top: 1px;
+  visibility: visible;
+}
+
+#greenBox {
+  width: 200px;
+  height: 50px;
+  background-color: #00ff00;
+  margin-top: 1px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  visibility: hidden;
+}
+
+#blueBox {
+  width: 200px;
+  height: 50px;
+  background-color: #0000ff;
+  margin-top: 1px;
+  visibility: visible;
+} */
+
+/* #greenBox {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #00ff00;
+  margin-top: 1px;
+  overflow: auto;
+} */
+
+/* CSS Association */
+/* #div1{
+  color: #00ff00;
+}
+
+#div1 span{
+  font-size: 24px;
+} */
+
+/* CSS HyperlinkStyle.html
+a:link {
+
+}
+a:visited {
+  color: orangered;
+}
+a:hover {
+  font-size: 24px;
+}
+
+a:active {
+  color:#00ff00;
+}
+
+input.focus{
+  background-color: #000;
+} */
+
+/* span,div,.className,#idName{
+  font-size: 24px;
+} */
+
+/* div {
+  width: 200px;
+  height: 250px;
+  border: 1px solid #ff0000;
+} */
+
+/* .smallFont {
+  font-size: 12px;
+  color:#ff0000;
+}
+
+.bigFont {
+  font-size: 48px;
+  font-weight: bold;
+  color:#00ff00;
+} */
+
+/* .open {
+  display: "";
+}
+
+.close {
+  display: none;
+}
+
+#div {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #ff0000;
+  text-align:right;
+}
+
+#div2{
+  width: 300px;
+  border: 1px solid #00ff00;
+} */
+
+/* .over {
+  background-color: #d9ff00;
+}
+
+.down{
+  background-color: #0000ff;
+}
+
+table {
+  border: 1px solid #eeeeee;
+  width: 400px;
+  border-collapse:collapse;
+}
+
+table th {
+  border: 1px solid #eeeeee;
+  background-color: #cccccc;
+}
+
+table td {
+  border: 1px solid #eeeeee;
+} */
+
+.tableClass {
+  width: 600px;
+  border: 1px solid #ff0000;
+  border-collapse: collapse;
+}
+
+.tableClass td{
+  border: 1px solid #ff0000;
+}
+
