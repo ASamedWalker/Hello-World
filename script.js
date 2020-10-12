@@ -533,18 +533,35 @@
 // }
 
 
-function doSetInterval() {
-  var dateDiv = document.getElementById("dateDiv");
-  var d = new Date();
-  var dateString = d.getHours() +":"+ d.getMinutes()+":"+d.getSeconds()
+// function doSetInterval() {
+//   var dateDiv = document.getElementById("dateDiv");
+//   var d = new Date();
+//   var dateString = d.getHours() +":"+ d.getMinutes()+":"+d.getSeconds()
 
-  dateDiv.innerHTML = dateString;
-}
+//   dateDiv.innerHTML = dateString;
+// }
 
-setInterval("doSetInterval()", 1000);
+// setInterval("doSetInterval()", 1000);
+
+// function doSetInterval() {
+//   var dateDiv = document.getElementById("dateDiv");
+//   var d = new Date();
+//   var dateString = d.getHours() +":"+ d.getMinutes()+":"+d.getSeconds()
+
+//   dateDiv.innerHTML = dateString;
+// }
+
+// setInterval("doSetInterval()", 1000);
 
 
+var canvas = document.getElementById("myCanvas");
 
+//Begins a path to create a line move from (20,100) to (200, 100);
+var context = canvas.getContext("2d");
+context.beginPath();
+context.moveTo(20, 100);
+context.lineTo(200, 100);
+context.stroke();
 
 
 

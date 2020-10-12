@@ -255,7 +255,7 @@ table th {
 table td {
   border: 1px solid #eeeeee;
 } */
-
+/* 
 #dateDiv {
   width: 600px;
   border: 1px solid #2bff00;
@@ -264,5 +264,8 @@ table td {
 
 #dateDiv{
   border: 1px solid #ff7300;
-}
+} */
 
+#myCanvas {
+  border: 1px solid #c3c3c3;
+}
