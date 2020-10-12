@@ -563,8 +563,10 @@ context.moveTo(20, 100);
 context.lineTo(200, 100);
 context.stroke();
 
-
-
+//Begin a path create a rectangle
+var context = canvas.getContext("2d");
+context.fillStyle = "#00ff00";
+context.fillRect(100, 50, 100, 50);
 
 
 
