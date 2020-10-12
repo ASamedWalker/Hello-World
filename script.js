@@ -489,14 +489,7 @@ function doCreateTable() {
 function doCreateRow() {
   var rowNum = parseInt(document.getElementById("row").value);
   var colNum = parseInt(document.getElementById("col").value);
-  for(var i = 1; i <= rowNum; i++) {
-    var row = table.insertRow(-1);
-    for(var j=1; j <= colNum; j++) {
-      var cell = row.insertCell(-1);
-      cell.innerHTML="row: " + i + ", col: " + j;
-    }
-  }
-}
+  for (var i=1; i <= rowNum)
 
 
 
